@@ -132,3 +132,32 @@ Here are some techniques you can use to maintain orthogonality:
 * Avoid similar functions by removing redundancy (DRY). Use your new
   gained understanding (you have idenditfied redunancy, right?) to
   refactor code.
+
+## Gardening
+Software construction gardening means you need to:
+- rewrite
+- rearchitect
+- rework
+
+Restructuring is a continous process. A subtask of restructuring is
+refactoring. Refactoring is a day-to-day activity, like weeding and
+raking if you own a garden.
+
+### Refactoring
+Refactoring is defined by Martin Fowler as a:
+- disciplined technique for restructuring an existing body of code,
+  altering is internal structure without changing its external behaviour. 
+The purpose of refactoring is to make it easier t read/understand when
+you or someone else get back to this place in the code at a later stage.
+Ward Cunningham coined the term technical debt. It is what happens when
+you do not refactor your learning back into your code as you are
+building it.
+
+## CLEAN code
+And once you know how to write CLEAN code, the best way to sure  you're
+writing high quality, testable code, is to write the tests first.
+* Cohesive code reduce side effects
+* Loosely coupled code is easier to test
+* Encapsulated code is easier to extend
+* Assertive code makes software more modular
+* Nonredundant code reduces maintainance issues
