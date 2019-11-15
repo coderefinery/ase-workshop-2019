@@ -113,3 +113,22 @@ first time." - but you are setting you up for failure. Verify your
 assumptions by testing.
 
 Practice = the freedom to be able to make mistakes. 
+
+Failure Quote of the Day: Fail.Forward.Fast
+Reward Exceppent Failures, Punish Meidocre Success
+-Tom Peters
+
+"Fail often to succeed sooner."
+-IDEO company slogan
+
+### Orthogonality
+Here are some techniques you can use to maintain orthogonality:
+* Keep your code decoupled by writing "shy code". "Shy Code" is code
+  that reveals as little as possible, only what is necessary.
+* Avoid use of global data. Every time your code references global data,
+  it ties itself to other components that share that data. Your code is
+  easier to understand and maintain if you explicitly pass any required
+  context into your modules.
+* Avoid similar functions by removing redundancy (DRY). Use your new
+  gained understanding (you have idenditfied redunancy, right?) to
+  refactor code.
