@@ -7,7 +7,7 @@ class: middle, inverse
 
 ## Bjørn Lindi and [Radovan Bast](http://bast.fr)
 
-### [NeIC](https://neic.nordforsk.org)/ [NTNU](https://www.ntnu.no) / [UiT The Arctic University of Norway](https://uit.no)
+### [NeIC](https://neic.nordforsk.org)/ [NTNU](https://www.ntnu.no) & [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
 Text is free to share and remix under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -21,14 +21,16 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 # Fail forward?
 
 --
-## Give yourself the freedom to make mistakes
+## Give yourself the freedom to make mistakes, establish short feed back cycles.
 <img src="img/brio-34000-labyrint-i-tre-1.jpg" style="width: 40%;" />
 
 ???
 Short feedback cycles. This high addictive game has a short feedback cycle. This how our development evironment should be. But there must be many feedback cycles, and at many levels. This essential for our learning exeperience.
+---
+# Reproducibility?
 --
-# Reproducibility
-##[Doubt about 150 published chemistry studies](https://arstechnica.com/information-technology/2019/10/chemists-discover-cross-platform-python-scripts-not-so-cross-platform/)
+
+## [Doubt about 150 published chemistry studies](https://arstechnica.com/information-technology/2019/10/chemists-discover-cross-platform-python-scripts-not-so-cross-platform/)
 <img src="img/arts-technica-python-error.png" style="width: 40%;" />
 
 ???
@@ -36,10 +38,11 @@ WRF - support example:
 - "It work a month a go". Is something changed? I don't think I have large-file-support
 - 4-6 weeks to sort out what the problem really was (could have done much faster if one of us were more WRF-fluent)
 
+---
+# Reusable?
 --
-# Reusable
 <img src="img/tumble-weed.jpg" style="width: 40%;" />
-## The bush vs the three
+## The bush versus the tree
 <img src="img/oak-tree-long-life.jpg" style="width: 40%;" />
 
 ???
