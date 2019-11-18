@@ -161,3 +161,60 @@ writing high quality, testable code, is to write the tests first.
 * Encapsulated code is easier to extend
 * Assertive code makes software more modular
 * Nonredundant code reduces maintainance issues
+
+## TDD by Example
+Dependency is the key problem in software development at all scales. ...
+If dependency is the problem, duplication is the symptom. Duplication
+most often takes the form of duplicat logic - the same expression
+appearing in multiple places in the code. Objects are excellent for
+abstracting away duplication of logic.
+
+### The general TDD cycle goes as follows:
+1. Write a test. Think about how you would like the operation in your
+   mind to appear in your code. You are writing a story. Invent the
+   interface you wish you had. Include all of the elements in the story
+   that you imagine will be necessary to calculate the right answers.
+2. Make it run. Quickly getting that bar to green dominates everything
+   else. If a clean, simple solution is obvious, then type it in. If the
+   clean, simple solution is obvious but it will take you a minute, then
+   make a note of it and get back to the main problem, which is getting
+   the bar green in seconds. This shift in aesthetics is hard for some
+   experienced software engineers. Quick green excuses all sins. But
+   only for a moment.
+3. Make it right. Now that the system is behaving, put the sinful ways
+   of the recent past behind you. Step back onto the straight and narrow
+   path of software righteousness. Remove the duplication that you have
+   introduced , and get to green quickly.
+   
+Clean code that works is out of the reach of even the best programmers
+some of the time, and out of the reach of most programmers(like me) most
+of the time. The remedy is "divide and conquer. First solve the "that
+works" part of the problem. Then solve the "clean code" part of the
+problem.
+
+## Version Control
+From "The Pragmatic Programmer: your journey to mastery, 20th
+Anniversary Edtion, 2nd Edition"
+### Challenges
+* Knowing you can roll back to any previous state using the VCS is one
+  thing, but can you actually do it? Do you know the commands to do it
+  properly? Learn them now, not when the disaster strikes and you're
+  under pressure.
+* Spend some time thinking about recovering your own laptop environment
+  in case of a disaster. What would you need to recover? Many of the
+  things you need are just text files. If they're not in a VCS(hosted
+  off your laptop), find a way to add them. Then think about the other
+  stuff: installed applications, system configuration, and so on. How
+  can you express all that stuff in text files so it, too , can be
+  saved?
+* Consciously explore the features of your current VCS and hosting
+  provider that you're not using. If your team isn't using feature
+  branches, experiment with introducing them. The same with pull/merge
+  requests. Continuous integration. Build piplines. Even continous
+  deployment. Look into the team communication tools, too: wikis,
+  Kanban boards, and the like. 
+  
+  You don't have to use it. But you do need to know what it does so you
+  can make that decision.
+
+* USe version control for nonproject things, too.
