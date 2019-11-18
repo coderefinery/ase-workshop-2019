@@ -138,6 +138,23 @@ what you seek."
 --- 
 # Getting to green.
 
+* We only write as much code as needed to pass the test. If implies copy
+  code, we copy code. If mean using constants, we use constants. 
+  
+* First we solve "that works" part of the problem. Then we solve the
+  "clean code" part(that is part of the next step - refactoring). Divide et imperia.
+  
+???
+
+"Make it run. Quickly getting that bar to green dominates everything
+else. If a clean, simple solution is obvious, then type it in. If the
+clean, simple solution is obvious but it will take you a minute, then
+make a note of it and get back to the main problem, which is getting
+the bar green in seconds. This shift in aesthetics is hard for some
+ experienced software engineers. Quick green excuses all sins. But
+only for a moment."
+--Kent Beck, TDD by Example
+
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
