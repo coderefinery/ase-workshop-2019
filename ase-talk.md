@@ -257,8 +257,27 @@ This is taken fro "Beyond Legacy Code".
 --- 
 
 # Quality Code is Nonredundant
+* Don't repeat your self (DRY)
 
+???
 
+---
+That was a nice acronym - CLEAN - So what?
+--
+
+<img src="img/development-speed.svg" style="width: 80%;"/>
+
+--
+# Increase Quality today to Increase Velocity to tomorrow.
+
+???
+- The CLEAN properties are all different sides of the same gem. Focus on
+one and others follow along.
+- Cohesive code reduces side effects
+- Loosely coupled code easier to test
+- Encapsulated code is easier to extend
+- Assertive code make software more modular
+- Nonredundant code reduces maintainance issues.
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
