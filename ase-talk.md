@@ -204,6 +204,39 @@ This is taken fro "Beyond Legacy Code".
   responsibility.
 
 <img src="img/RC_Series_Filter.png style="width: 40%;" />
+
+???
+- The RC-circuit is not cohesive, but the Resisitor is, and so is the
+  Capacitor.
+- By combining these two cohesive components, we get our preferred
+  filter. The more complex functionality is achieved with compositon.
+
+---
+# Quality Code is Loosely Coupled
+* "Code that is loosely coupled indirectly depends on the code it uses
+  so it is easier to isolate, verify, reuse and extend.
+  
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+.cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
+
+???
+
+- The power distribution to this room/floor is probably decoupled from
+  the power distribution to another of the build. At some point they are
+  depending upon the same source, but you can work on the distribution
+  on this floor, without causing problems on another floor(,presumably).
+---
+
+# Quality Code is Encapsulated.
+
+* Encapsulated code hide implementation details from the rest of the
+  world.
+* You separate what something does from how it is done, which gives you
+  freedom to change how later on.
+  
+???
+- Outside-In Programming vs Inside-Out Programming
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
