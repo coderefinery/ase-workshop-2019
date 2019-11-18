@@ -197,6 +197,14 @@ This is taken fro "Beyond Legacy Code".
 * Encapsulated code is easier to extend
 * Assertive code makes software more modular
 * Nonredundant code reduces maintainance issues
+
+---
+# Quality Code is Cohesive
+* In software development cohesive means entities should have a single
+  responsibility.
+
+<img src="img/RC_Series_Filter.png style="width: 40%;" />
+---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
 made dramatically easier with a support system in place. Developers are
