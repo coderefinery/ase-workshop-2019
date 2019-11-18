@@ -51,3 +51,70 @@ WRF - support example:
 - A cycle is a PhD-thesis.
 - Loss of our most precious resource - time
 - Someone comes after us - could be our future self
+
+---
+
+# Write tests first!
+
+--
+.. but I know what I am doing, why should I write tests first?
+
+___
+
+# What you "know is a mix of...
+
+* True knowledge
+* A set of assumptions 
+  
+---
+
+## Some of the assumptions are wrong.
+A test written first can reveal this.
+
+??? 
+- Since you have to think thoroughly about have to write a test testing a  new behaviour, already the thought process may reveal wrong assumptions.
+
+---
+# Implementing a feedback cycle
+* By writing tests first you implement a feedback cycle. 
+* Writing tests specifying behaviour, you create a active environment which relates to your code base.
+* If behaviour is broken, it shows up immediately.
+
+---
+# Test-first development
+* It is a design methodology
+* "It helps developers build high quality code by forcing them to write testable code and by concretizing requirements"
+
+???
+We are not talking QA here...
+
+---
+
+# Learn Test-Driven Development
+
+<img src="img/red_green_refactor.png" style="width: 40%;" />
+
+???
+
+1. Write a test. Think about how you would like the operation in your
+   mind to appear in your code. You are writing a story. Invent the
+   interface you wish you had. Include all of the elements in the story
+   that you imagine will be necessary to calculate the right answers.
+2. Make it run. Quickly getting that bar to green dominates everything
+   else. If a clean, simple solution is obvious, then type it in. If the
+   clean, simple solution is obvious but it will take you a minute, then
+   make a note of it and get back to the main problem, which is getting
+   the bar green in seconds. This shift in aesthetics is hard for some
+   experienced software engineers. Quick green excuses all sins. But
+   only for a moment.
+3. Make it right. Now that the system is behaving, put the sinful ways
+   of the recent past behind you. Step back onto the straight and narrow
+   path of software righteousness. Remove the duplication that you have
+   introduced , and get to green quickly.
+   
+---
+
+# References
+* tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
+* Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein* Test Driven Development: By Example, by Kent Beck
+* Modern C++ Programming with Test-Driven Devleopment
