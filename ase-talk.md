@@ -113,7 +113,19 @@ We are not talking QA here...
    introduced , and get to green quickly.
    
 ---
+# Pair programming and Test Driven Development
+"TDD supported with pair programming is a natural fit. Learning TDD is
+made dramatically easier with a support system in place. Developers are
+more likely to revert to old, non-TDD habits without a bit of peer
+pressure from their teammates. Sittint with an experienced TDDer can be
+more than half the time need to ingrain the habit of TDD. Swapping pairs
+can help ensure that tests are writte first and with care.
 
+How to balance pair programming?
+"But a team full of siloed devlopers, with little review and no shared
+knowledge, will create paint that will only continue to increase over
+time.
+---
 # References
 * tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
 * Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein* Test Driven Development: By Example, by Kent Beck
