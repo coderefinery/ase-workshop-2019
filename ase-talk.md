@@ -87,7 +87,8 @@ A test written first can reveal this.
 
 ???
 We are not talking QA here...
-
+- Emphasize testing behaviour - not edge cases.
+- Thinking about QA-cases is a separate task.
 ---
 
 # Learn Test-Driven Development
@@ -112,6 +113,31 @@ We are not talking QA here...
    path of software righteousness. Remove the duplication that you have
    introduced , and get to green quickly.
    
+---
+# Starting on red.
+
+* Focus on one test at a time, and implement the new behaviour step by
+  step - with short feedback cycles.
+* Name the the test properly - it is the test of a new
+  behaviour/feature.
+  
+???
+"Take great care with naming. The small investment of deriving highly
+descriptive test names pays well over time, as tests are read and reread
+by others who must maintain the code. Crafting a good test name will
+also help you, the test writer, better understand the intent of what
+you're about to build.
+
+You'll be writing a number of tests for each behaviour in the system.
+Think about the set of test names as a concordance that quickly provides
+a developer with a concise summary of that behavior. The easier the test
+names are to digest, the more quickly you and other developers will find
+what you seek."
+--Jeff Langr, Modern C++ Programming with Test-Driven Development
+
+--- 
+# Getting to green.
+
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
