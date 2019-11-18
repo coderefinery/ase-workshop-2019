@@ -162,10 +162,41 @@ Refactoring is defined by Martin Fowler as a:
   altering is internal structure without changing its external behaviour. 
 * To get passed the test, you did some sins. Now you make it right.
 * Get rid of duplication.
-* Make the code readable and understandable. Tidy up.
 * Refactoring is applying want you have learnt from the test.
+* Make the code readable and understandable. 
+* Tidy up and make code CLEAN.
 
 ---
+# Start over again, add new functionality
+
+<img src="img/red_green_refactor.png" style="width: 40%;" />
+
+???
+- You are incrementally verifying and building new behavior in this way
+- You are establishing a development path with feedback.
+- You also train/exercise the ability to vary the "stepsize".
+- Being able to vary the stepsize is valuable when things become brittle
+ (your on thin ice.)
+ 
+---
+# What is the characteristics of CLEAN code?
+
+--
+
+* It is Cohesive.
+* It is Loosely coupled.
+* It is Encapsulated.
+* It is Assertive.
+* It is Nonredundant
+
+This is taken fro "Beyond Legacy Code".
+
+???
+* Cohesive code reduce side effects
+* Loosely coupled code is easier to test
+* Encapsulated code is easier to extend
+* Assertive code makes software more modular
+* Nonredundant code reduces maintainance issues
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
 made dramatically easier with a support system in place. Developers are
