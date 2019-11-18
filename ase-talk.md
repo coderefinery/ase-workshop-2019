@@ -155,6 +155,16 @@ the bar green in seconds. This shift in aesthetics is hard for some
 only for a moment."
 --Kent Beck, TDD by Example
 
+--- 
+# Refactor
+Refactoring is defined by Martin Fowler as a:
+- disciplined technique for restructuring an existing body of code,
+  altering is internal structure without changing its external behaviour. 
+* To get passed the test, you did some sins. Now you make it right.
+* Get rid of duplication.
+* Make the code readable and understandable. Tidy up.
+* Refactoring is applying want you have learnt from the test.
+
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
