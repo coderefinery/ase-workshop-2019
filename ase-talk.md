@@ -237,6 +237,28 @@ This is taken fro "Beyond Legacy Code".
   
 ???
 - Outside-In Programming vs Inside-Out Programming
+
+---
+
+# Quality Code is Assertive
+
+* The opposite is inquisitive: *Don't be so inquisitive. It's none of
+  your buisness.*
+* Software objects should not be inquisitive; they should be authorative
+  - in charge  of them self.
+
+???
+- Martin Fowler (Refactoring: Improving Design of Exisiting Code, refers
+  to "feature envy" or "inappropriate intimacy". This code smells
+  related to lack of assertiveness.
+- Behavior end up in wrong places - multiple object must remain in sync
+  to achieve the correct results.
+
+--- 
+
+# Quality Code is Nonredundant
+
+
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
