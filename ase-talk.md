@@ -53,13 +53,19 @@ WRF - support example:
 - Someone comes after us - could be our future self
 
 ---
+# Version Control System
+
+---
+# Central repository/ project place
+
+---
 
 # Write tests first!
 
 --
 .. but I know what I am doing, why should I write tests first?
 
-___
+---
 
 # What you "know is a mix of...
 
@@ -68,10 +74,10 @@ ___
   
 ---
 
-## Some of the assumptions are wrong.
+# Some of the assumptions are wrong.
 A test written first can reveal this.
 
-??? 
+???
 - Since you have to think thoroughly about have to write a test testing a  new behavior, already the thought process may reveal wrong assumptions.
 -  Tests are specification; they define behavior.
 -  Write just enough tests to specify the behaviors you're building and
@@ -86,7 +92,9 @@ A test written first can reveal this.
 ---
 # Test-first development
 * It is a design methodology
-* "It helps developers build high quality code by forcing them to write testable code and by concretizing requirements"
+* "It helps developers build high quality code by forcing them to write
+  testable code and by concretizing requirements" --David Scott
+  Bernstein [1]
 
 ???
 We are not talking QA here...
@@ -149,7 +157,7 @@ names are to digest, the more quickly you and other developers will find
 what you seek."
 --Jeff Langr, Modern C++ Programming with Test-Driven Development
 
---- 
+---
 # Getting to green.
 
 * We only write as much code as needed to pass the test. If implies copy
@@ -169,7 +177,7 @@ the bar green in seconds. This shift in aesthetics is hard for some
 only for a moment."
 --Kent Beck, TDD by Example
 
---- 
+---
 # Refactor
 Refactoring is defined by Martin Fowler as a:
 - disciplined technique for restructuring an existing body of code,
@@ -203,7 +211,7 @@ Refactoring is defined by Martin Fowler as a:
 * It is Assertive.
 * It is Non-redundant
 
-This is taken fro "Beyond Legacy Code".
+This is taken from [1].
 
 ???
 * Cohesive code reduce side effects
@@ -217,7 +225,7 @@ This is taken fro "Beyond Legacy Code".
 * In software development cohesive means entities should have a single
   responsibility.
 
-<img src="img/RC_Series_Filter.png style="width: 40%;" />
+<img src="img/RC_Series_Filter.png" style="width: 40%;" />
 
 ???
 - The RC-circuit is not cohesive, but the Resistor is, and so is the
@@ -228,14 +236,14 @@ This is taken fro "Beyond Legacy Code".
 ---
 # Quality Code is Loosely Coupled
 * "Code that is loosely coupled indirectly depends on the code it uses
-  so it is easier to isolate, verify, reuse and extend.
+  so it is easier to isolate, verify, reuse and extend." [1]
   
 <img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
 
 .cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
 
 ???
-
+- Knitwear is not loosely coupled.
 - The power distribution to this room/floor is probably decoupled from
   the power distribution to another of the build. At some point they are
   depending upon the same source, but you can work on the distribution
@@ -258,8 +266,8 @@ This is taken fro "Beyond Legacy Code".
 
 * The opposite is inquisitive: *Don't be so inquisitive. It's none of
   your business.*
-* Software objects should not be inquisitive; they should be authoritative
-  - in charge  of them self.
+* Software objects should not be inquisitive; they should be
+  authoritative, in charge  of them self.
 
 ???
 - Martin Fowler (Refactoring: Improving Design of Existing Code, refers
@@ -276,13 +284,13 @@ This is taken fro "Beyond Legacy Code".
 ???
 
 ---
-That was a nice acronym - CLEAN - So what?
---
+## That was a nice acronym - CLEAN - So what?
+
+---
+## Increase Quality today to increase Velocity to tomorrow.
 
 <img src="img/development-speed.svg" style="width: 80%;"/>
 
---
-# Increase Quality today to Increase Velocity to tomorrow.
 
 ???
 - The CLEAN properties are all different sides of the same gem. Focus on
@@ -292,6 +300,20 @@ one and the others follow along.
 - Encapsulated code is easier to extend
 - Assertive code make software more modular
 - Nonredundant code reduces maintenance issues.
+---
+## "...ASE has grown organically..."
+
+???
+- This is cut from the invitation sent to Coderefinery, why we are here.
+- My interpretation is codebase size, complexity is starting to be felt
+  ( somewhere on the previous red-line, but you want to be on the blue)
+-  At some point some of you will work with the "old stuff" - your
+   legacy code - or parts of your common code base which hard to work
+   with (fix,enhance and so on).
+- Having experience CLEAN code and knowing how to change "things"
+  incrementally will valuable assets, going forward with the changes you
+  need to apply.
+
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
@@ -306,7 +328,10 @@ How to balance pair programming?
 knowledge, will create paint that will only continue to increase over
 time.
 ---
+Code Review
+---
 # References
-* tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
-* Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein* Test Driven Development: By Example, by Kent Beck
-* Modern C++ Programming with Test-Driven Development, by Jeff Langr
+- [1] Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein
+- [2] Test Driven Development: By Example, by Kent Beck
+- [3] Modern C++ Programming with Test-Driven Development, by Jeff Langr
+- tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
