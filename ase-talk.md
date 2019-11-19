@@ -304,15 +304,23 @@ one and the others follow along.
 ## "...ASE has grown organically..."
 
 ???
-- This is cut from the invitation sent to Coderefinery, why we are here.
-- My interpretation is codebase size, complexity is starting to be felt
+- This is cut from the invitation sent to Coderefinery.
+- My interpretation is that your codebase size, complexity is starting to be felt
   ( somewhere on the previous red-line, but you want to be on the blue)
 -  At some point some of you will work with the "old stuff" - your
    legacy code - or parts of your common code base which hard to work
    with (fix,enhance and so on).
 - Having experience CLEAN code and knowing how to change "things"
-  incrementally will valuable assets, going forward with the changes you
-  need to apply.
+  incrementally (TDD) will valuable assets. Because you will need to go
+  forward with the changes you
+  need to apply, but will be able to vary the size of the increment.
+
+---
+# Other feedback cycles you should establish:
+
+-- 
+* Pair programming
+* Code-review
 
 ---
 # Pair programming and Test Driven Development
