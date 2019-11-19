@@ -25,7 +25,7 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 <img src="img/brio-34000-labyrint-i-tre-1.jpg" style="width: 40%;" />
 
 ???
-Short feedback cycles. This high addictive game has a short feedback cycle. This how our development evironment should be. But there must be many feedback cycles, and at many levels. This essential for our learning exeperience.
+Short feedback cycles. This high addictive game has a short feedback cycle. This how our development environment should be. But there must be many feedback cycles, and at many levels. This essential for our learning experience.
 ---
 # Reproducibility?
 --
@@ -72,13 +72,16 @@ ___
 A test written first can reveal this.
 
 ??? 
-- Since you have to think thoroughly about have to write a test testing a  new behaviour, already the thought process may reveal wrong assumptions.
+- Since you have to think thoroughly about have to write a test testing a  new behavior, already the thought process may reveal wrong assumptions.
+-  Tests are specification; they define behavior.
+-  Write just enough tests to specify the behaviors you're building and
+   only write code to make failing test pass.
 
 ---
 # Implementing a feedback cycle
 * By writing tests first you implement a feedback cycle. 
-* Writing tests specifying behaviour, you create a active environment which relates to your code base.
-* If behaviour is broken, it shows up immediately.
+* Writing tests specifying behavior, you create a active environment which relates to your code base.
+* If behavior is broken, it shows up immediately.
 
 ---
 # Test-first development
@@ -87,8 +90,19 @@ A test written first can reveal this.
 
 ???
 We are not talking QA here...
-- Emphasize testing behaviour - not edge cases.
+- Emphasize testing behavior - not edge cases.
 - Thinking about QA-cases is a separate task.
+---
+# Writing a  test first is ...
+- making a hypothesis.
+- It is a hypothesis that you understand the requirements.
+
+???
+- You are used to making hypothesis as a part of your scientific
+  training. This is nothing new.
+- Once the test passes, the tests serves as confirmation of behavior. If
+  the tests breaks, some intend behavior is absent.
+  
 ---
 
 # Learn Test-Driven Development
@@ -116,10 +130,10 @@ We are not talking QA here...
 ---
 # Starting on red.
 
-* Focus on one test at a time, and implement the new behaviour step by
+* Focus on one test at a time, and implement the new behavior step by
   step - with short feedback cycles.
-* Name the the test properly - it is the test of a new
-  behaviour/feature.
+* Name the test properly - it is the test of a new
+  behavior/feature.
   
 ???
 "Take great care with naming. The small investment of deriving highly
@@ -128,7 +142,7 @@ by others who must maintain the code. Crafting a good test name will
 also help you, the test writer, better understand the intent of what
 you're about to build.
 
-You'll be writing a number of tests for each behaviour in the system.
+You'll be writing a number of tests for each behavior in the system.
 Think about the set of test names as a concordance that quickly provides
 a developer with a concise summary of that behavior. The easier the test
 names are to digest, the more quickly you and other developers will find
@@ -159,10 +173,10 @@ only for a moment."
 # Refactor
 Refactoring is defined by Martin Fowler as a:
 - disciplined technique for restructuring an existing body of code,
-  altering is internal structure without changing its external behaviour. 
+  altering is internal structure without changing its external behavior. 
 * To get passed the test, you did some sins. Now you make it right.
 * Get rid of duplication.
-* Refactoring is applying want you have learnt from the test.
+* Refactoring is applying want you have learned from the test.
 * Make the code readable and understandable. 
 * Tidy up and make code CLEAN.
 
@@ -174,8 +188,8 @@ Refactoring is defined by Martin Fowler as a:
 ???
 - You are incrementally verifying and building new behavior in this way
 - You are establishing a development path with feedback.
-- You also train/exercise the ability to vary the "stepsize".
-- Being able to vary the stepsize is valuable when things become brittle
+- You also train/exercise the ability to vary the "step size".
+- Being able to vary the step size is valuable when things become brittle
  (your on thin ice.)
  
 ---
@@ -187,7 +201,7 @@ Refactoring is defined by Martin Fowler as a:
 * It is Loosely coupled.
 * It is Encapsulated.
 * It is Assertive.
-* It is Nonredundant
+* It is Non-redundant
 
 This is taken fro "Beyond Legacy Code".
 
@@ -196,7 +210,7 @@ This is taken fro "Beyond Legacy Code".
 * Loosely coupled code is easier to test
 * Encapsulated code is easier to extend
 * Assertive code makes software more modular
-* Nonredundant code reduces maintainance issues
+* Non-redundant code reduces maintenance issues
 
 ---
 # Quality Code is Cohesive
@@ -206,10 +220,10 @@ This is taken fro "Beyond Legacy Code".
 <img src="img/RC_Series_Filter.png style="width: 40%;" />
 
 ???
-- The RC-circuit is not cohesive, but the Resisitor is, and so is the
+- The RC-circuit is not cohesive, but the Resistor is, and so is the
   Capacitor.
 - By combining these two cohesive components, we get our preferred
-  filter. The more complex functionality is achieved with compositon.
+  filter. The more complex functionality is achieved with composition.
 
 ---
 # Quality Code is Loosely Coupled
@@ -243,12 +257,12 @@ This is taken fro "Beyond Legacy Code".
 # Quality Code is Assertive
 
 * The opposite is inquisitive: *Don't be so inquisitive. It's none of
-  your buisness.*
-* Software objects should not be inquisitive; they should be authorative
+  your business.*
+* Software objects should not be inquisitive; they should be authoritative
   - in charge  of them self.
 
 ???
-- Martin Fowler (Refactoring: Improving Design of Exisiting Code, refers
+- Martin Fowler (Refactoring: Improving Design of Existing Code, refers
   to "feature envy" or "inappropriate intimacy". This code smells
   related to lack of assertiveness.
 - Behavior end up in wrong places - multiple object must remain in sync
@@ -272,27 +286,27 @@ That was a nice acronym - CLEAN - So what?
 
 ???
 - The CLEAN properties are all different sides of the same gem. Focus on
-one and others follow along.
+one and the others follow along.
 - Cohesive code reduces side effects
 - Loosely coupled code easier to test
 - Encapsulated code is easier to extend
 - Assertive code make software more modular
-- Nonredundant code reduces maintainance issues.
+- Nonredundant code reduces maintenance issues.
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
 made dramatically easier with a support system in place. Developers are
 more likely to revert to old, non-TDD habits without a bit of peer
-pressure from their teammates. Sittint with an experienced TDDer can be
+pressure from their teammates. Sitting with an experienced TDDer can be
 more than half the time need to ingrain the habit of TDD. Swapping pairs
-can help ensure that tests are writte first and with care.
+can help ensure that tests are written first and with care.
 
 How to balance pair programming?
-"But a team full of siloed devlopers, with little review and no shared
+"But a team full of siloed developers, with little review and no shared
 knowledge, will create paint that will only continue to increase over
 time.
 ---
 # References
 * tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
 * Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein* Test Driven Development: By Example, by Kent Beck
-* Modern C++ Programming with Test-Driven Devleopment
+* Modern C++ Programming with Test-Driven Development, by Jeff Langr
