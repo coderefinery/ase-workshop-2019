@@ -11,7 +11,6 @@ class: middle, inverse
 
 Text is free to share and remix under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Code examples: [MIT license](http://opensource.org/licenses/mit-license.html)
 
 Credits: [Jonas Juselius](https://github.com/juselius),
 [Roberto Di Remigio](http://totaltrash.xyz),
@@ -56,18 +55,25 @@ WRF - support example:
 
 # Write tests first!
 
---
-.. but I know what I am doing, why should I write tests first?
-
 ???
 -  You start writing your code from an outside-in perspective.
 -  Tests are specification; they define behavior.
 -  Write just enough tests to specify the behaviors you're building and
    only write code to make failing test pass.
 
+
+--
+
+.. but I know what I am doing, why should I write tests first?
+
+???
+- because you are trained to work like this:
+  - as a scientist you make a hypothesis.
+  - next you verify it, which often takes a little more effort than expected.
+
 ---
 
-# What you "know is a mix of...
+# What you "know" is a mix of...
 
 * True knowledge
 * A set of assumptions 
@@ -151,18 +157,8 @@ We are not talking QA here...
    mind to appear in your code. You are writing a story. Invent the
    interface you wish you had. Include all of the elements in the story
    that you imagine will be necessary to calculate the right answers.
-2. Make it run. Quickly getting that bar to green dominates everything
-   else. If a clean, simple solution is obvious, then type it in. If the
-   clean, simple solution is obvious but it will take you a minute, then
-   make a note of it and get back to the main problem, which is getting
-   the bar green in seconds. This shift in aesthetics is hard for some
-   experienced software engineers. Quick green excuses all sins. But
-   only for a moment.
-3. Make it right. Now that the system is behaving, put the sinful ways
-   of the recent past behind you. Step back onto the straight and narrow
-   path of software righteousness. Remove the duplication that you have
-   introduced , and get to green quickly.
-   
+--Kent Beck, TDD by Example
+
 ---
 # Starting on red.
 
@@ -206,16 +202,26 @@ only for a moment."
 --Kent Beck, TDD by Example
 
 ---
-# Refactor
+## Refactor - incorporate the learning experience from satisfying the test (requirement) in the code
+* To get passed the test, you did some sins. Now you make it right.
+* Get rid of duplication.
+* Let the code express your learning from the outside-in/inside out
+  ping-pong.
+* Make the code readable and understandable. 
+* Tidy up and make the code CLEAN.
+
+???
+
 Refactoring is defined by Martin Fowler as a:
 - disciplined technique for restructuring an existing body of code,
   altering is internal structure without changing its external behavior. 
-* To get passed the test, you did some sins. Now you make it right.
-* Get rid of duplication.
-* Refactoring is applying want you have learned from the test.
-* Make the code readable and understandable. 
-* Tidy up and make code CLEAN.
-
+  
+"Make it right. Now that the system is behaving, put the sinful ways
+   of the recent past behind you. Step back onto the straight and narrow
+   path of software righteousness. Remove the duplication that you have
+   introduced , and get to green quickly."
+-- Kent Beck, TDD by Example
+   
 ---
 # Start over again, add new functionality
 
@@ -229,7 +235,7 @@ Refactoring is defined by Martin Fowler as a:
  (your on thin ice.)
  
 ---
-# What is the characteristics of CLEAN code?
+# What is the CLEAN code?
 
 --
 
