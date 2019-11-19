@@ -53,17 +53,17 @@ WRF - support example:
 - Someone comes after us - could be our future self
 
 ---
-# Version Control System
-
----
-# Central repository/ project place
-
----
 
 # Write tests first!
 
 --
 .. but I know what I am doing, why should I write tests first?
+
+???
+-  You start writing your code from an outside-in perspective.
+-  Tests are specification; they define behavior.
+-  Write just enough tests to specify the behaviors you're building and
+   only write code to make failing test pass.
 
 ---
 
@@ -79,16 +79,40 @@ A test written first can reveal this.
 
 ???
 - Since you have to think thoroughly about have to write a test testing a  new behavior, already the thought process may reveal wrong assumptions.
--  Tests are specification; they define behavior.
--  Write just enough tests to specify the behaviors you're building and
-   only write code to make failing test pass.
-
 ---
 # Implementing a feedback cycle
 * By writing tests first you implement a feedback cycle. 
 * Writing tests specifying behavior, you create a active environment which relates to your code base.
 * If behavior is broken, it shows up immediately.
 
+???
+- Tests are the holes in the Brio labyrinth.
+- Your stating a hypothesis - next you prove it is right.
+
+---
+# Version Control System
+
+<img src="img/git.jpg" style="width: 40%;" />
+
+???
+
+- If tests are the holes in the Brio, VCS is the
+  supporting frames, allowing you to start from whole 19 or 32. 
+- Know your VCS well, assuming it is git, understand:
+  - branching and merging
+  - reset
+  - rewriting history (reordering, squashing, splitting)
+  - workflows
+---
+# Central repository/ project place
+
+<img src="img/gitgithub.png" style="width: 40%;" />
+
+???
+- Also now your project place well, what it offers of project boards,
+  web pages etc.
+- How to do code review.
+  
 ---
 # Test-first development
 * It is a design methodology
@@ -100,6 +124,10 @@ A test written first can reveal this.
 We are not talking QA here...
 - Emphasize testing behavior - not edge cases.
 - Thinking about QA-cases is a separate task.
+- TDD is  ping-pong between the outside-in view, where you write the
+  test, and the inside-out view, where write code meeting the
+  requirement the test represents.
+  
 ---
 # Writing a  test first is ...
 - making a hypothesis.
@@ -342,4 +370,5 @@ Code Review
 - [1] Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein
 - [2] Test Driven Development: By Example, by Kent Beck
 - [3] Modern C++ Programming with Test-Driven Development, by Jeff Langr
-- tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
+- [4] Pro Git, by Scott Chacon and Ben Straub
+- [5] tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
