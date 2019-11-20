@@ -65,7 +65,7 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 
 ---
 
-# Write tests first!
+# Write the tests first!
 
 ???
 - We need testable code! (We = you, me, the world)
@@ -77,7 +77,7 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 
 --
 
-.. but I know what I am doing, why should I write tests first?
+.. but I know what I am doing, why should I write the tests first?
 
 ???
 - You are starting from an outside-in perspective. How will this be
@@ -113,22 +113,19 @@ A test written first can reveal this.
 
 ---
 # Test-first development
-* It is a design methodology
+* It is a design methodology.
 * "It helps developers build high quality code by forcing them to write
-  testable code and by concretizing requirements" --David Scott
+  testable code and by concretizing requirements." --David Scott
   Bernstein [1]
 
 ???
 We are not talking QA here...
 - Emphasize testing behavior - not edge cases.
 - Thinking about QA-cases is a separate task.
-- TDD is  ping-pong between the outside-in view, where you write the
-  test, and the inside-out view, where write code meeting the
-  requirement the test represents.
 - You are used to making hypothesis as a part of your scientific
   training. This is nothing new.
-- Once the test passes, the tests serves as confirmation of behavior. If
-  the tests breaks, some intend behavior is absent.
+- ..but you partly know what you will create, but you are not sure how
+  it will be used.
   
 ---
 
@@ -213,6 +210,9 @@ Refactoring is defined by Martin Fowler as a:
 <img src="img/red_green_refactor.png" style="width: 40%;" />
 
 ???
+- TDD is  ping-pong between the outside-in view, where you write the
+  test, and the inside-out view, where write code meeting the
+  requirement the test represents.
 - You are incrementally verifying and building new behavior in this way
 - You are establishing a development path with feedback.
 - You also train/exercise the ability to vary the "step size".
