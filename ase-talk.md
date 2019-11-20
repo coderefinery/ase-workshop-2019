@@ -16,6 +16,10 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 [Roberto Di Remigio](http://totaltrash.xyz),
 [Ole Martin Bjørndalen](https://github.com/olemb)
 
+???
+- Work at the HPC-group@NTNU (since 2004).
+- Participate in the CodeRefinery.
+- Do HPC support, coderefinery workshops, project management (NLPL)
 ---
 # Fail forward?
 
@@ -24,7 +28,11 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 <img src="img/brio-34000-labyrint-i-tre-1.jpg" style="width: 40%;" />
 
 ???
-Short feedback cycles. This high addictive game has a short feedback cycle. This how our development environment should be. But there must be many feedback cycles, and at many levels. This essential for our learning experience.
+- Short feedback cycles. This high addictive game has a short feedback
+  cycle. 
+- This how our development environment should be - playground.
+- This essential for our learning experience.
+
 ---
 # Reproducibility?
 --
@@ -33,9 +41,10 @@ Short feedback cycles. This high addictive game has a short feedback cycle. This
 <img src="img/arts-technica-python-error.png" style="width: 40%;" />
 
 ???
-WRF - support example:
-- "It work a month a go". Is something changed? I don't think I have large-file-support
-- 4-6 weeks to sort out what the problem really was (could have done much faster if one of us were more WRF-fluent)
+- What is the state software you wrote 6 years ago or more?
+- ...reproducibility can be needed on any rainy monday, support example:
+- "It work a month a go. Something has changed! I don't think I have large-file-support
+- 4-6 weeks to sort out what the problem really was. 
 
 ---
 # Reusable?
@@ -47,19 +56,20 @@ WRF - support example:
 ???
 
 - Witness development cycles like a bush not as a three.
-- A cycle is a PhD-thesis.
-- Loss of our most precious resource - time
-- Someone comes after us - could be our future self
+- Cycle-time is close a PhD-thesis.
+- Loss of a very precious resource - time
+- Someone comes after us - could be our future self!
 
 ---
 
 # Write tests first!
 
 ???
--  You start writing your code from an outside-in perspective.
--  Tests are specification; they define behavior.
--  Write just enough tests to specify the behaviors you're building and
-   only write code to make failing test pass.
+- We need testable code! (We = you, me, the world)
+- Tests are specification; they define behavior.
+- because you are trained to work like this:
+  - as a scientist you make a hypothesis.
+  - next you need verify it, which often takes a little more effort than expected.
 
 
 --
@@ -67,9 +77,10 @@ WRF - support example:
 .. but I know what I am doing, why should I write tests first?
 
 ???
-- because you are trained to work like this:
-  - as a scientist you make a hypothesis.
-  - next you verify it, which often takes a little more effort than expected.
+- You are starting from an outside-in perspective. How will this be
+  used?
+- Write just enough tests to specify the behaviors you're building and
+   only write code to make failing test pass.
 
 ---
 
@@ -88,7 +99,7 @@ A test written first can reveal this.
 ---
 # Implementing a feedback cycle
 * By writing tests first you implement a feedback cycle. 
-* Writing tests specifying behavior, you create a active environment which relates to your code base.
+* Writing tests specifying behavior, you create a active environment which relates to your code.
 * If behavior is broken, it shows up immediately.
 
 ???
