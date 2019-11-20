@@ -92,9 +92,11 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 * True knowledge
 * A set of assumptions 
   
----
+???
+ - Which of your believes are wrong?
+--
 
-# Some of the assumptions are wrong.
+## Some of the assumptions are wrong.
 A test written first can reveal this.
 
 ???
@@ -123,13 +125,6 @@ We are not talking QA here...
 - TDD is  ping-pong between the outside-in view, where you write the
   test, and the inside-out view, where write code meeting the
   requirement the test represents.
-  
----
-# Writing a  test first is ...
-- making a hypothesis.
-- It is a hypothesis that you understand the requirements.
-
-???
 - You are used to making hypothesis as a part of your scientific
   training. This is nothing new.
 - Once the test passes, the tests serves as confirmation of behavior. If
@@ -192,7 +187,7 @@ only for a moment."
 --Kent Beck, TDD by Example
 
 ---
-## Refactor - incorporate the learning experience from satisfying the test (requirement) in the code
+## Refactor - incorporate the learning experience from satisfying the test 
 * To get passed the test, you did some sins. Now you make it right.
 * Get rid of duplication.
 * Let the code express your learning from the outside-in/inside out
@@ -350,25 +345,39 @@ one and the others follow along.
   web pages etc.
 - How to do code review.
   
+  
 ---
 ## "...packages has grown rather organically..."
 
-
 ???
-- This is cut from Paul's email sent to Coderefinery.
-- My interpretation is that your codebase size, complexity is starting to be felt
+- This is cut from Paul's email sent to CodeRefinery.
+- My interpretation is that the size, complexity of the ASE code base is starting to be felt
   ( somewhere on the previous red-line, but you want to be on the blue)
 -  At some point some of you will work with the "old stuff" - your
    legacy code - or parts of your common code base which hard to work
    with (fix,enhance and so on).
+--
+
+* You are using a version control system like git.
+* You have some experience with at least one aspect of CLEAN code.
+* You have developed a sense of how to test and develop code incrementally (TDD)
+
+--
+
+## This is necessary experience to be able to work with Legacy Code.
+
+???
+- We (all of us) need to work with/ clean up Legacy Code
 - Having experience with CLEAN code and knowing how to change "things"
   incrementally with TDD will be valuable assets. Because you will need to go
   forward with the changes you
-  need to apply, but will be able to vary the size of the increment.
+  need to apply, but you will be able to vary the size of the increment.
 
 ---
 # Other feedback cycles you should establish:
 
+???
+- Feedback cycle = opportunity for learning
 -- 
 * Pair programming
 * Code-review
@@ -397,20 +406,21 @@ time.
 * Use a coverage service like Coveralls to verify coverage
   automatically.
   
-<img src="img/travis-ci.png" style="width: 80%;"/>
+<img src="img/travis-ci.png" style="width: 40%;"/>
+
 ???
- - https://travis-ci.org/
- - https://coveralls.io/
+- https://travis-ci.org/
+- https://coveralls.io/
 
 ---
 ## Licensing
 * Think about how you would like your software to be used and cited.
 * Don't lock yourself out from using it later.
 
-[David Heinemeier Hansson about MIT License, Open Source
+* [David Heinemeier Hansson about MIT License, Open Source
 ...](https://m.signalvnoise.com/open-source-beyond-the-market/)
 
-??? 
+???
 - The MIT Open Source License is pretty good - keeps most doors open.
 ---
 # References
