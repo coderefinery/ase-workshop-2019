@@ -335,17 +335,18 @@ one and the others follow along.
 - Assertive code make software more modular
 - Nonredundant code reduces maintenance issues.
 ---
-## "...ASE has grown organically..."
+## "...packages has grown rather organically..."
+
 
 ???
-- This is cut from the invitation sent to Coderefinery.
+- This is cut from Paul's email sent to Coderefinery.
 - My interpretation is that your codebase size, complexity is starting to be felt
   ( somewhere on the previous red-line, but you want to be on the blue)
 -  At some point some of you will work with the "old stuff" - your
    legacy code - or parts of your common code base which hard to work
    with (fix,enhance and so on).
-- Having experience CLEAN code and knowing how to change "things"
-  incrementally (TDD) will valuable assets. Because you will need to go
+- Having experience with CLEAN code and knowing how to change "things"
+  incrementally with TDD will be valuable assets. Because you will need to go
   forward with the changes you
   need to apply, but will be able to vary the size of the increment.
 
@@ -363,14 +364,38 @@ made dramatically easier with a support system in place. Developers are
 more likely to revert to old, non-TDD habits without a bit of peer
 pressure from their teammates. Sitting with an experienced TDDer can be
 more than half the time need to ingrain the habit of TDD. Swapping pairs
-can help ensure that tests are written first and with care.
+can help ensure that tests are written first and with care."
+
+???
 
 How to balance pair programming?
 "But a team full of siloed developers, with little review and no shared
 knowledge, will create paint that will only continue to increase over
 time.
 ---
-Code Review
+## Code Review
+---
+## Automate testing and checking of code coverage
+* Use a Continuous Integration service like Travis for automatic
+  testing.
+* Use a coverage service like Coveralls to verify coverage
+  automatically.
+  
+<img src="img/travis-ci.png" style="width: 80%;"/>
+???
+https://travis-ci.org/
+https://coveralls.io/
+
+---
+## Licensing
+* Think about how you would like your software to be used and cited.
+* Don't lock yourself out from using it later.
+
+[David Heinemeier Hansson about MIT License, Open Source
+...](https://m.signalvnoise.com/open-source-beyond-the-market/)
+
+??? 
+- The MIT Open Source License is pretty good - keeps most doors open.
 ---
 # References
 - [1] Beyond Legacy Code - Nine practices to extend the life (and value of) of Your Software , by David Scott Bernstein
@@ -378,3 +403,8 @@ Code Review
 - [3] Modern C++ Programming with Test-Driven Development, by Jeff Langr
 - [4] Pro Git, by Scott Chacon and Ben Straub
 - [5] tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
+-  CodeRefinery workshops: https://coderefinery.org/workshops
+
+???
+ CodeRefinery Workshops in Stockholm and Copenhagen early next year. If
+ someone at DTU could be local contact, that would be very welcome.
