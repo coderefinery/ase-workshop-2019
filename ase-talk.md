@@ -120,8 +120,8 @@ A test written first can reveal this.
 
 ???
 We are not talking QA here...
-- Emphasize testing behavior - not edge cases.
 - Thinking about QA-cases is a separate task.
+- Emphasize testing behavior - not edge cases.
 - You are used to making hypothesis as a part of your scientific
   training. This is nothing new.
 - ..but you partly know what you will create, but you are not sure how
@@ -217,7 +217,7 @@ Refactoring is defined by Martin Fowler as a:
 - You are establishing a development path with feedback.
 - You also train/exercise the ability to vary the "step size".
 - Being able to vary the step size is valuable when things become brittle
- (your on thin ice.)
+ (your on thin ice).
  
 ---
 # What is CLEAN code?
@@ -264,9 +264,9 @@ This is taken from [1].
 ???
 - Knitwear is not loosely coupled.
 - The power distribution to this room/floor is probably decoupled from
-  the power distribution to another of the build. At some point they are
-  depending upon the same source, but you can work on the distribution
-  on this floor, without causing problems on another floor(,presumably).
+  another floor. At some point they are depending upon the same source,
+  but you can work on the distribution on this floor, without causing
+  problems on another floor(,presumably).
 ---
 
 # Quality Code is Encapsulated.
@@ -277,7 +277,8 @@ This is taken from [1].
   freedom to change how later on.
   
 ???
-- Outside-In Programming vs Inside-Out Programming
+
+- "Shy code" - reveal as little as possible.
 
 ---
 
@@ -289,22 +290,25 @@ This is taken from [1].
   authoritative, in charge  of them self.
 
 ???
+
 - Martin Fowler (Refactoring: Improving Design of Existing Code, refers
   to "feature envy" or "inappropriate intimacy". This code smells
   related to lack of assertiveness.
 - Behavior end up in wrong places - multiple object must remain in sync
   to achieve the correct results.
 
---- 
+---
 
 # Quality Code is Nonredundant
 * Don't repeat your self (DRY)
 
-???
-
 ---
 ## That was a nice acronym - CLEAN - So what?
 
+???
+
+- The CLEAN properties are all different sides of the same gem. Focus on
+one and the others follow along.
 ---
 ## Increase Quality today to increase Velocity to tomorrow.
 
@@ -312,8 +316,6 @@ This is taken from [1].
 
 
 ???
-- The CLEAN properties are all different sides of the same gem. Focus on
-one and the others follow along.
 - Cohesive code reduces side effects
 - Loosely coupled code easier to test
 - Encapsulated code is easier to extend
