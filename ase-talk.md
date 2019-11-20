@@ -374,14 +374,14 @@ one and the others follow along.
   need to apply, but you will be able to vary the size of the increment.
 
 ---
-# Other feedback cycles you should establish:
+## Other feedback cycles you should establish:
+
+* ### Pair programming
+* ### Code-review
 
 ???
 - Feedback cycle = opportunity for learning
--- 
-* Pair programming
-* Code-review
-
+ 
 ---
 # Pair programming and Test Driven Development
 "TDD supported with pair programming is a natural fit. Learning TDD is
@@ -391,14 +391,9 @@ pressure from their teammates. Sitting with an experienced TDDer can be
 more than half the time need to ingrain the habit of TDD. Swapping pairs
 can help ensure that tests are written first and with care."
 
-???
-
-How to balance pair programming?
-"But a team full of siloed developers, with little review and no shared
-knowledge, will create paint that will only continue to increase over
-time.
 ---
 ## Code Review
+<img src="img/draft_pr.png style="width: 40%; "/>
 ---
 ## Automate testing and checking of code coverage
 * Use a Continuous Integration service like Travis for automatic
@@ -415,10 +410,8 @@ time.
 ---
 ## Licensing
 * Think about how you would like your software to be used and cited.
-* Don't lock yourself out from using it later.
-
-* [David Heinemeier Hansson about MIT License, Open Source
-...](https://m.signalvnoise.com/open-source-beyond-the-market/)
+* Don't lock yourself out from using your code later.
+* [David Heinemeier Hansson about MIT License, Open Source [6]](https://m.signalvnoise.com/open-source-beyond-the-market/)
 
 ???
 - The MIT Open Source License is pretty good - keeps most doors open.
@@ -429,6 +422,8 @@ time.
 - [3] Modern C++ Programming with Test-Driven Development, by Jeff Langr
 - [4] Pro Git, by Scott Chacon and Ben Straub
 - [5] tmux 2 productive mouse-free development by Brian Hogan, The Pragmatic Programmers / Chapter 5 pair programming with tmux
+- [6] ["Open source beyond the market"](https://m.signalvnoise.com/open-source-beyond-the-market/)
+- [Cicero:Serving presentation slides written in Markdown](https://cicero.readthedocs.io/en/latest/)
 -  CodeRefinery workshops: https://coderefinery.org/workshops
 
 ???
