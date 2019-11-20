@@ -1,7 +1,10 @@
+# http://bit.ly/ase-coderefinery-2019
+---
 layout: true
 class: middle, inverse
 
---
+
+---
 
 # Fail Forward: Development of Reproducible and Reusable software is a learning experience
 
@@ -67,7 +70,7 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 ???
 - We need testable code! (We = you, me, the world)
 - Tests are specification; they define behavior.
-- because you are trained to work like this:
+- You are trained to work like this:
   - as a scientist you make a hypothesis.
   - next you need verify it, which often takes a little more effort than expected.
 
@@ -106,30 +109,6 @@ A test written first can reveal this.
 - Tests are the holes in the Brio labyrinth.
 - Your stating a hypothesis - next you prove it is right.
 
----
-# Version Control System
-
-<img src="img/git.jpg" style="width: 40%;" />
-
-???
-
-- If tests are the holes in the Brio, VCS is the
-  supporting frames, allowing you to start from whole 19 or 32. 
-- Know your VCS well, assuming it is git, understand:
-  - branching and merging
-  - reset
-  - rewriting history (reordering, squashing, splitting)
-  - workflows
----
-# Central repository/ project place
-
-<img src="img/gitgithub.png" style="width: 40%;" />
-
-???
-- Also now your project place well, what it offers of project boards,
-  web pages etc.
-- How to do code review.
-  
 ---
 # Test-first development
 * It is a design methodology
@@ -246,7 +225,7 @@ Refactoring is defined by Martin Fowler as a:
  (your on thin ice.)
  
 ---
-# What is the CLEAN code?
+# What is CLEAN code?
 
 --
 
@@ -345,6 +324,32 @@ one and the others follow along.
 - Encapsulated code is easier to extend
 - Assertive code make software more modular
 - Nonredundant code reduces maintenance issues.
+
+---
+# Version Control System
+
+<img src="img/git.jpg" style="width: 40%;" />
+
+???
+
+- If tests are the holes in the Brio, VCS is the
+  supporting frames, allowing you to start from whole 19 or 32. 
+- Using a VCS underpins everything.
+- Know your VCS well, assuming it is git, understand:
+  - branching and merging
+  - reset
+  - rewriting history (reordering, squashing, splitting)
+  - workflows
+---
+# Central repository/ project place
+
+<img src="img/gitgithub.png" style="width: 40%;" />
+
+???
+- Also now your project place well, what it offers of project boards,
+  web pages etc.
+- How to do code review.
+  
 ---
 ## "...packages has grown rather organically..."
 
@@ -394,8 +399,8 @@ time.
   
 <img src="img/travis-ci.png" style="width: 80%;"/>
 ???
-https://travis-ci.org/
-https://coveralls.io/
+ - https://travis-ci.org/
+ - https://coveralls.io/
 
 ---
 ## Licensing
