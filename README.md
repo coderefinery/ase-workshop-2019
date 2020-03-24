@@ -1,3 +1,2 @@
-Slides: [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-
-Text: free to share and remix under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+Presentation slides used at ASE Workshop 2019 at Chalmers:
+https://ase-workshop.materialsmodeling.org/abstracts/bjorn-lindi/
